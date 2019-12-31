@@ -1,0 +1,7 @@
+
+<database>
+	<element name="sys_cs_now_navigator_company" type="collection" label="Company">
+		<element name="id" type="string" max_length="254" label="ID" />
+		<element name="name" type="string" label="Name" />
+	</element>
+</database>

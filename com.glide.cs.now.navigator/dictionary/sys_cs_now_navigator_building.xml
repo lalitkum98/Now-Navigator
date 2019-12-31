@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+	<element name="sys_cs_now_navigator_building" type="collection" label="Building">
+		<element name="name" type="string" label="Name" />
+        <element name="sys_cs_now_navigator_location" type="reference" reference="sys_cs_now_navigator_location" label="Location" />
+	</element>
+</database>

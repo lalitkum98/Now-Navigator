@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plugin
+		id="com.glide.cs.now.navigator"
+		name="Now Navigator"
+		version="1.0"
+		state="published"
+		provider_name="ServiceNow"
+		namespace="sn_now_navigator"
+		licensable="true">
+
+	<description>Activate Now Navigator API's for Mobile Platform</description>
+	<extension point="com.glide.rest.service" name="NavigatorWebhookResource" class="com.glide.cs.now.navigator.NowNavigatorWebhookResource"/>
+</plugin>

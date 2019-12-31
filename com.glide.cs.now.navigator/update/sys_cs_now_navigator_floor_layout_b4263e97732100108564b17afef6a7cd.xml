@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_cs_now_navigator_floor_layout action="INSERT_OR_UPDATE">
+<layout>{
+   "id":1,
+   "locationId":"b2e902037321001028f9b17afef6a700",
+   "locationName":"MAIN GATE",
+   "locationType":"main_gate",
+   "rightNeighbour":{
+      "id":2,
+      "locationId":"32e902037321001028f9b17afef6a700",
+      "locationName":"WP1",
+      "locationType":"walkable_path",
+      "leftNeighbour":1,
+      "rightNeighbour":{
+         "id":3,
+         "locationId":"f2e902037321001028f9b17afef6a700",
+         "locationName":"WP2",
+         "locationType":"walkable_path",
+         "leftNeighbour":2,
+         "downNeighbour":{
+            "id":4,
+            "locationId":"b6e902037321001028f9b17afef6a700",
+            "locationName":"WP3",
+            "locationType":"walkable_path",
+            "leftNeighbour":{
+               "id":5,
+               "locationId":"36e902037321001028f9b17afef6a700",
+               "locationName":"WP4",
+               "locationType":"walkable_path",
+               "leftNeighbour":{
+                  "id":6,
+                  "locationId":"72e902037321001028f9b17afef6a700",
+                  "locationName":"WP5",
+                  "locationType":"walkable_path",
+                  "rightNeighbour":5,
+                  "topNeighbour":1,
+                  "downNeighbour":{
+                     "id":7,
+                     "locationId":"76e902037321001028f9b17afef6a700",
+                     "locationName":"CB0001",
+                     "locationType":"cubicle",
+                     "rightNeighbour":{
+                        "id":8,
+                        "locationId":"f6e902037321001028f9b17afef6a700",
+                        "locationName":"WP6",
+                        "locationType":"walkable_path",
+                        "leftNeighbour":7,
+                        "rightNeighbour":{
+                           "id":9,
+                           "locationId":"3ae902037321001028f9b17afef6a700",
+                           "locationName":"CB0002",
+                           "locationType":"cubicle",
+                           "leftNeighbour":8,
+                           "topNeighbour":4,
+                           "coordinate":{
+                              "x":2,
+                              "y":2
+                           }
+                        },
+                        "topNeighbour":5,
+                        "coordinate":{
+                           "x":2,
+                           "y":1
+                        }
+                     },
+                     "topNeighbour":6,
+                     "coordinate":{
+                        "x":2,
+                        "y":0
+                     }
+                  },
+                  "coordinate":{
+                     "x":1,
+                     "y":0
+                  }
+               },
+               "rightNeighbour":4,
+               "topNeighbour":2,
+               "downNeighbour":8,
+               "coordinate":{
+                  "x":1,
+                  "y":1
+               }
+            },
+            "downNeighbour":9,
+            "coordinate":{
+               "x":1,
+               "y":2
+            }
+         },
+         "coordinate":{
+            "x":0,
+            "y":2
+         }
+      },
+      "downNeighbour":5,
+      "coordinate":{
+         "x":0,
+         "y":1
+      }
+   },
+   "downNeighbour":6,
+   "coordinate":{
+      "x":0,
+      "y":0
+   }
+}</layout>
+<main_gate_zone>true</main_gate_zone>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-12-11 16:11:28</sys_created_on>
+<sys_cs_now_navigator_floor display_value="7th Floor">b4263e97732100108564b17afef6a7cd</sys_cs_now_navigator_floor>
+<sys_id>8e8632d7732100108564b17afef6a7f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-12-11 16:11:28</sys_updated_on>
+<zone>Zone 1</zone>
+</sys_cs_now_navigator_floor_layout>

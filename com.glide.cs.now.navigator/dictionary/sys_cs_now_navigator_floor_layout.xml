@@ -1,0 +1,10 @@
+
+<database>
+	<element name="sys_cs_now_navigator_floor_layout" type="collection" label="Floor Layout">
+		<element name="zone" type="string" label="Zone" />
+        <element name="connector_zone" type="reference" reference="floor_layout" label="Connector Zone" />
+        <element name="main_gate_zone" type="boolean" default="false" label="Main Gate Zone" />
+        <element name="sys_cs_now_navigator_floor" type="reference" reference="sys_cs_now_navigator_floor" label="Floor" />
+        <element name="layout" type="string_full_utf8" max_length="xxlarge" attributes="no_text_index=true"/>
+	</element>
+</database>

@@ -1,0 +1,8 @@
+
+<database>
+	<element name="sys_cs_now_navigator_location" type="collection" label="Location">
+		<element name="name" type="string" label="Name" />
+        <element name="address" type="string" max_length="254" label="Address" />
+        <element name="sys_cs_now_navigator_company" type="reference" reference="sys_cs_now_navigator_company" label="Company" />
+	</element>
+</database>

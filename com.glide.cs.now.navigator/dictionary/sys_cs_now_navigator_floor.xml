@@ -1,0 +1,7 @@
+
+<database>
+	<element name="sys_cs_now_navigator_floor" type="collection" label="Floor">
+		<element name="name" type="string" label="Name" />
+        <element name="sys_cs_now_navigator_building" type="reference" reference="sys_cs_now_navigator_building" label="Building" />
+	</element>
+</database>
